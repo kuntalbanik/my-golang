@@ -13,3 +13,11 @@ func Add(a, b int) int { // same as func Add(a int, b int) int
 func Multiply(a, b int) int {
 	return a * b
 }
+
+func Divide(a, b float64) float64 {
+	if a > b {
+		return a / b
+	} else {
+		return b / a
+	}
+}
